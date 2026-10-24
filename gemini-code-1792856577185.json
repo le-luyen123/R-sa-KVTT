@@ -1,0 +1,116 @@
+{
+  "app_name": "Basic English Practice",
+  "description": "Hệ thống dữ liệu tiếng Anh giao tiếp căn bản",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Chào hỏi & Giới thiệu bản thân",
+      "description": "Các mẫu câu cơ bản để bắt đầu một cuộc trò chuyện.",
+      "vocabulary": [
+        {
+          "word": "Hello",
+          "phonetic": "/həˈləʊ/",
+          "meaning": "Xin chào",
+          "audio_url": "./assets/audio/hello.mp3"
+        },
+        {
+          "word": "Nice to meet you",
+          "phonetic": "/naɪs tuː miːt juː/",
+          "meaning": "Rất vui được gặp bạn",
+          "audio_url": "./assets/audio/nice_to_meet_you.mp3"
+        },
+        {
+          "word": "Life coach",
+          "phonetic": "/laɪf kəʊtʃ/",
+          "meaning": "Nhà khai vấn",
+          "audio_url": "./assets/audio/life_coach.mp3"
+        }
+      ],
+      "dialogues": [
+        {
+          "dialogue_id": "d_01_01",
+          "context": "Lần đầu gặp mặt tại một sự kiện",
+          "lines": [
+            {
+              "speaker": "John",
+              "text": "Hello, nice to meet you.",
+              "translation": "Xin chào, rất vui được gặp bạn.",
+              "audio_url": "./assets/audio/d_01_01_line1.mp3"
+            },
+            {
+              "speaker": "Rosa",
+              "text": "Hi John. I'm Rosa. Nice to meet you too.",
+              "translation": "Chào John. Tôi là Rosa. Tôi cũng rất vui được gặp bạn.",
+              "audio_url": "./assets/audio/d_01_01_line2.mp3"
+            },
+            {
+              "speaker": "John",
+              "text": "What do you do, Rosa?",
+              "translation": "Bạn làm công việc gì vậy, Rosa?",
+              "audio_url": "./assets/audio/d_01_01_line3.mp3"
+            },
+            {
+              "speaker": "Rosa",
+              "text": "I am a life coach. I help people develop themselves.",
+              "translation": "Tôi là một nhà khai vấn. Tôi giúp mọi người phát triển bản thân.",
+              "audio_url": "./assets/audio/d_01_01_line4.mp3"
+            }
+          ]
+        }
+      ],
+      "speaking_practice": [
+        {
+          "task_id": "speak_01",
+          "instruction": "Nghe câu hỏi và bấm nút Ghi âm để trả lời về công việc của bạn.",
+          "prompt_audio": "./assets/audio/what_do_you_do.mp3",
+          "prompt_text": "What do you do?",
+          "suggested_answer": "I am a [your job].",
+          "expected_keywords": ["I am a", "coach", "teacher", "freelancer"]
+        }
+      ]
+    },
+    {
+      "id": "lesson_02",
+      "title": "Gọi món tại quán Cà phê",
+      "description": "Giao tiếp cơ bản khi đi mua đồ uống.",
+      "vocabulary": [
+        {
+          "word": "Order",
+          "phonetic": "/ˈɔːdə/",
+          "meaning": "Gọi món",
+          "audio_url": "./assets/audio/order.mp3"
+        },
+        {
+          "word": "Without sugar",
+          "phonetic": "/wɪˈðaʊt ˈʃʊɡə/",
+          "meaning": "Không đường",
+          "audio_url": "./assets/audio/without_sugar.mp3"
+        }
+      ],
+      "dialogues": [
+        {
+          "dialogue_id": "d_02_01",
+          "context": "Tại quầy pha chế",
+          "lines": [
+            {
+              "speaker": "Barista",
+              "text": "Good morning! What would you like to order?",
+              "translation": "Chào buổi sáng! Bạn muốn gọi món gì?",
+              "audio_url": "./assets/audio/d_02_01_line1.mp3"
+            },
+            {
+              "speaker": "Customer",
+              "text": "I would like a black coffee, please. Without sugar.",
+              "translation": "Cho tôi một cà phê đen. Không đường nhé.",
+              "audio_url": "./assets/audio/d_02_01_line2.mp3"
+            },
+            {
+              "speaker": "Barista",
+              "text": "Sure. That will be 3 dollars.",
+              "translation": "Vâng ạ. Của bạn hết 3 đô la.",
+              "audio_url": "./assets/audio/d_02_01_line3.mp3"
+            }
+          ]
+        }
+      ],
+      "speaking_
